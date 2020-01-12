@@ -1,5 +1,5 @@
 class Application
-
+  @@items = []
   def call(env)
     resp = Rack::Respond.new
     req = Rack::Request.new
